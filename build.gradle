@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    maven{
+        url 'https://repo.maven.apache.org/maven2'
+    }
+}
+
+dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation 'com.intuit.karate:karate-junit5:1.3.0'
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty "karate.env", System.properties.getProperty("karate.env")
+}
+
+sourceSets{
+    test{
+        resources{
+            srcDir file('src/test/java/booker')
+            exclude '**/*.java'
+        }
+    }
+}
