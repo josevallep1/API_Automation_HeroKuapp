@@ -1,0 +1,2 @@
+# API_Automation_HeroKuapp
+RETO TECNICO: QA AUTOMATION
