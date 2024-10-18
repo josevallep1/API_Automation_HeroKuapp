@@ -1,4 +1,4 @@
-# RETO TECNICO: QA AUTOMATION para API
+# RETO TECNICO: QA AUTOMATION PARA APIs
 
 Este repositorio fue creado con el proposito de presentar un reto tecnico para
 una posision de QA automation.
